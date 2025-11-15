@@ -78,6 +78,7 @@ namespace WebApi
             }
 
             // Middlewares
+            app.UseStaticFiles();//images
             app.UseSwagger();
             app.UseSwaggerUI();
             app.UseHttpsRedirection();
